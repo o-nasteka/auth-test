@@ -12,5 +12,9 @@ class MainController extends \yii\web\Controller
         return $this->render('index', ['url_image' => $url_image]);
     }
 
+    public function actionRequirements()
+    {
+        return $this->render('requirements');
+    }
 
 }

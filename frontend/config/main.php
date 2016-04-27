@@ -22,7 +22,7 @@ return [
                 'port'       => '465',
                 'smtpsecure' => 'ssl',
                 'smtpauth'   => true,
-                'username'   => 'vasya4879',
+                'username'   => 'vasya4879@gmail.com',
                 'password'   => 'vasyavasya123',
             ],
         ],
