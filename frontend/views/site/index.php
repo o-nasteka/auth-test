@@ -9,6 +9,62 @@ $this->title = 'My Yii Application';
     <div class="jumbotron">
         <h1>Congratulations!</h1>
 
+        <br/>
+
+        <?php
+            $arr = array();
+
+            $arr = array('test1','test2','test3','test4');
+
+            echo $arr[2];
+            echo "<br>";
+
+            for($i=0; $i<=3; $i++ ){
+                echo $arr[$i];
+                if($i<=2){
+                    echo " - ";
+                }
+            }
+            foreach($arr as $value){
+                // echo $value.' - ';
+            }
+            echo "<br>";
+
+            $a[0] = 1;
+            $a[1] = 3;
+            $a[2] = 5;
+            $b = array();
+            echo $result = count($b);
+
+        echo "<br>";
+        for ($i=0; $i<=10;$i++);
+        {echo $i;}
+
+        echo "<br>";
+        $a = ''; if ( $a ){ echo 'a'; } else { echo 'b'; }
+
+        echo "<br>";
+
+        $test2 = 'abc';
+        if($test2 !== ''){
+            echo 'ok';
+        } else { echo  'not ok';}
+
+        echo "<br>";
+
+        echo $_SERVER["REMOTE_ADDR"];
+
+        echo "<br>";
+
+        function mySum($num1, $num2 = 0){
+            return $sum = $num1+$num2;
+        }
+
+        echo mySum(30);
+
+        ?>
+
+
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>

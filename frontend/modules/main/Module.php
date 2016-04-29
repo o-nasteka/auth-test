@@ -19,6 +19,7 @@ class Module extends \yii\base\Module
     {
         parent::init();
 
+        $this->setLayoutPath('');
         // custom initialization code goes here
     }
 }
